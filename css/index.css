@@ -14,11 +14,11 @@
 }
 ::-webkit-scrollbar{
     width: 4px;
-    color:#bd4616;
+    color:#996dff;
     transition: all .4s ease;
 }
 ::-webkit-scrollbar-thumb {
-    background: #bd4616; 
+    background: linear-gradient(#e66465, #9198e5);
     border-radius: 4px;
     width: 4px;
     transition: all .4s ease;
@@ -326,12 +326,12 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family:poppins;
+    font-family: poppins;
 }
 .navigation-links a{
     padding:10px;
     text-decoration: none;
-    color: white;
+    color: #996dff;
     font-size: 30px;
     opacity: .7;
     transition: all .4s ease;
@@ -391,7 +391,7 @@ body{
 #breaker{
     height: 100vh;
     width: 200%;
-    background-color: #3b3939;
+    background: #331872;
     opacity: 1;
     animation: breakeranimate 2s linear;
     display: none;
@@ -411,7 +411,7 @@ body{
     100%{ transform : translateX(100%) }
 }
 .color{
-    color: #bd4616;
+    color: #996dff;
     transition: all .4s ease;
 }
 #about{
@@ -513,7 +513,7 @@ body{
     font-family: aileron;
     font-weight: 400;
     font-size: 35px;
-    color: #bd4616;
+    color: linear-gradient(#e66465, #9198e5);;
     transition: all .4s ease;
 }
 .cv {
@@ -524,7 +524,7 @@ body{
     border:none;
     padding: 15px 30px;
     color: whitesmoke;
-    background: #bd4616;
+    background: linear-gradient(#996dff,rgba(78, 64, 112, 0));
     outline: none;
     font-size:20px;
     font-family: aileron;
@@ -601,7 +601,7 @@ body{
     border-radius: 30%;
     padding: 10px;
     border: 0px solid #bd4616;
-    background: #bd4616;
+    background: #996dff;
     box-shadow:0px 0px 0px 0px #bd4616 ;
     height:100px;
     transition: all .8s ease;
@@ -706,7 +706,7 @@ body{
     transition: all .4s ease;
     width:35%;
     border-radius: 10px;
-    background: #bd4616;
+    background: #996dff;
  }
 .html-progress{
     position: absolute;
@@ -719,7 +719,7 @@ body{
     transition: all .4s ease;
     width:53%;
     border-radius: 10px;
-    background: #bd4616;
+    background: #996dff;
 }
 .js-progress{
     position: absolute;
@@ -733,7 +733,7 @@ body{
     transition: all .4s ease;
     width:45%;
     border-radius: 10px;
-    background: #bd4616;
+    background: #996dff;
 }
 .adobe-progress{
     position: absolute;
@@ -746,7 +746,7 @@ body{
     transition: all .4s ease;
     width:60%;
     border-radius: 10px;
-    background: #bd4616;
+    background: #996dff;
 }
 .php-progress{
     position: absolute;
@@ -758,7 +758,7 @@ body{
     justify-content: center;
     width: 35%;
     border-radius: 10px;
-    background: #bd4616;
+    background: #996dff;
     transition: all .4s ease;
 }
 .jquery-progress{
@@ -772,7 +772,7 @@ body{
     transition: all .4s ease;
     width:35%;
     border-radius: 10px;
-    background: #bd4616;
+    background: #996dff;
 }
 .seo-progress{
     position: absolute;
@@ -785,7 +785,7 @@ body{
     width:59%;
     border-radius: 10px;
     transition: all .4s ease;
-    background: #bd4616;
+    background: #996dff;
 }
 .ux-progress{
     position: absolute;
@@ -798,7 +798,7 @@ body{
     width:75%;
     border-radius: 10px;
     transition: all .4s ease;
-    background: #bd4616;
+    background: #996dff;
 }
 
 .git-progress{
@@ -812,7 +812,7 @@ body{
     width:60%;
     border-radius: 10px;
     transition: all .4s ease;
-    background: #bd4616;
+    background: #996dff;
 }
 
 .apiX-progress{
@@ -826,7 +826,7 @@ body{
     width:55%;
     border-radius: 10px;
     transition: all .4s ease;
-    background: #bd4616;
+    background: #996dff;
 }
 
 .portfolio-header{
@@ -886,7 +886,7 @@ padding-bottom: 40px;
     font-family: poppins;
     font-weight: 200;
     padding: 20px;
-    color: #bd4616;
+    color: #996dff;
     transition: all .4s ease;
 }
 .portfolio-text p{
@@ -903,11 +903,11 @@ padding-bottom: 40px;
     font-weight: 200;
     padding: 10px 20px;
     background:transparent;
-    color:#bd4616;
+    color: #996dff;
     transition: all .4s ease;
     outline: none;
     margin: 20px;
-    border: 1.5px solid #bd4616;
+    border: 1.5px solid #996dff;
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -922,7 +922,7 @@ padding-bottom: 40px;
     top: 0;
     left: 0;
     z-index: 3;
-    background: #bd4616;
+    background: linear-gradient(#996dff, #9198e5);;
     transition: all .7s ease;
 }
 .portfolio-text button:hover{
