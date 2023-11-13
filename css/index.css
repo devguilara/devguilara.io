@@ -447,6 +447,9 @@ body{
     width: 100%;
     padding:30px;
 }
+
+
+
 .about-header{
     height: auto;
     width: 100%;
@@ -675,14 +678,15 @@ body{
 }
 .html-prog{
    width:100%;
-   height:40px;
+   height:20px;
    border-radius: 10px;
    background: #191919;
    box-shadow:0px 0px 25px rgb(0,0,0,.1);
    position: relative;
    overflow: hidden;
 }
-.api-progress{
+
+.php-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -691,33 +695,21 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:45%;
-    border-radius: 10px;
-    background: #bd4616;
- }
- .aws-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .4s ease;
-    width:35%;
+    width:70%;
     border-radius: 10px;
     background: #996dff;
- }
-.html-progress{
+}
+.laravel-progress{
     position: absolute;
     top:10%;
     left:1%;
     height: 80%;
     display: flex;
     align-items: center;
+    font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
-    width:53%;
+    width:55%;
     border-radius: 10px;
     background: #996dff;
 }
@@ -728,14 +720,26 @@ body{
     height: 80%;
     display: flex;
     align-items: center;
-    font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
-    width:45%;
+    width:58%;
     border-radius: 10px;
     background: #996dff;
 }
-.adobe-progress{
+.css-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    border-radius: 10px;
+    background: #996dff;
+    transition: all .4s ease;
+}
+.bd-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -744,11 +748,11 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:60%;
+    width:47%;
     border-radius: 10px;
     background: #996dff;
 }
-.php-progress{
+.scrum-progress{
     position: absolute;
     top:10%;
     left:1%;
@@ -756,50 +760,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35%;
-    border-radius: 10px;
-    background: #996dff;
-    transition: all .4s ease;
-}
-.jquery-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .4s ease;
-    width:35%;
-    border-radius: 10px;
-    background: #996dff;
-}
-.seo-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:59%;
+    width:62%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #996dff;
 }
-.ux-progress{
-    position: absolute;
-    top:10%;
-    left:1%;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:75%;
-    border-radius: 10px;
-    transition: all .4s ease;
-    background: #996dff;
-}
+
 
 .git-progress{
     position: absolute;
@@ -809,7 +775,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:60%;
+    width:70%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #996dff;
@@ -823,7 +789,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:55%;
+    width:60%;
+    border-radius: 10px;
+    transition: all .4s ease;
+    background: #996dff;
+}
+.c-progress{
+    position: absolute;
+    top:10%;
+    left:1%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:57%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #996dff;
@@ -844,6 +823,8 @@ body{
     padding-top: 60px;
     font-weight: 900;
 }
+
+
 
 .header-caption{
     opacity:.8;
