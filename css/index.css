@@ -511,14 +511,6 @@ body{
     border-radius: 40px;
 }
 
-#about-content a{
-    text-decoration: none;
-    font-family: aileron;
-    font-weight: 400;
-    font-size: 35px;
-    color: linear-gradient(#e66465, #9198e5);;
-    transition: all .4s ease;
-}
 .cv {
     padding-top: 40px;
 }
